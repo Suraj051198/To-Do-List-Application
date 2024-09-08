@@ -27,5 +27,5 @@ This is a To-Do List application built with Angular for the frontend and Node.js
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-list-app.git
+   git clone [https://github.com/your-username/todo-list-app.git](https://github.com/Suraj051198/To-Do-List-Application.git)
    cd todo-list-app
