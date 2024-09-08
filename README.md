@@ -1,31 +1,26 @@
 # To-Do List Application
 
-## Overview
+## Description
 
-This is a To-Do List application built with Angular for the frontend and Node.js with Express for the backend. The application allows users to manage their tasks with functionalities such as adding, updating, and deleting tasks.
+A simple To-Do List application built using Angular for the frontend and Node.js with Express.js for the backend. This application allows users to add, edit, delete, and view tasks. Data is managed using a JSON file in the backend for simplicity.
 
-## Features
+## Project Structure
 
-- Add new tasks
-- Update existing tasks
-- Delete tasks
-- View task details
-- Mark tasks as completed
-- Responsive design
+- **Frontend (Angular)**
+  - `src/app/MyComponents/todos/`: Component for displaying the list of todos.
+  - `src/app/MyComponents/todo-item/`: Component for displaying individual todo items.
+  - `src/app/MyComponents/add-todo/`: Component for adding new todos.
+  - `src/app/MyComponents/about/`: Component for the About page.
+  - `src/app/todo.model.ts`: Defines the Todo model.
 
-## Technologies Used
+- **Backend (Node.js with Express)**
+  - Handles API requests and manages data storage using a JSON file.
 
-- **Frontend**: Angular, TypeScript, HTML, CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Testing**: Mocha (server-side), Angular default libraries (client-side)
-
-## Installation
+## Setup
 
 ### Frontend
 
-1. Clone the repository:
+1. **Clone the repository**
 
    ```bash
-   git clone [https://github.com/your-username/todo-list-app.git](https://github.com/Suraj051198/To-Do-List-Application.git)
-   cd todo-list-app
+   git clone https://github.com/Suraj051198/To-Do-List-Application.git
