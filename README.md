@@ -44,7 +44,7 @@ A simple To-Do List application built using Angular for the frontend and Node.js
    ng serve --o
    
 
-### Backend
+## Backend
 
    1. **Navigate to the backend directory**
       ```bash
@@ -61,19 +61,22 @@ A simple To-Do List application built using Angular for the frontend and Node.js
  *The server will be available at http://localhost:3000.*
 
 
-### Data Management
+## Data Management
 The application uses a JSON file for managing data during development. 
 Ensure that the JSON file is properly configured and available in the backend directory.
 
-### Screenshots
+## Screenshots
 Here are some screenshots of the application:
 **Home Page**
+##
 ![image](https://github.com/user-attachments/assets/6f4f4c20-a676-482c-b758-f30e96bd5ad3)
 
 **ALL Todo List**
+##
 ![image](https://github.com/user-attachments/assets/74fed2c9-e7da-4682-a740-9f1d896cc24a)
 
 **Delete, Save, Edit, Cancel**
+##
 ![image](https://github.com/user-attachments/assets/a3e8dc81-5858-41e1-b81c-d88407a02512)
 
    
