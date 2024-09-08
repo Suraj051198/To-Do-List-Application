@@ -1,0 +1,22 @@
+<ul class="list-group m-2">
+  <li class="list-group-item">
+    <div class="my-3">
+      <label class="form-label">Title:</label>
+      <h5 [ngClass]="{'strike': !todo.active}" *ngIf="!isEditing">{{todo.title}}</h5>
+      <input *ngIf="isEditing" [(ngModel)]="todo.title" class="form-control" placeholder="Edit title"/>
+
+      <label class="form-label">Description:</label>
+      <p [ngClass]="{'strike': !todo.active}" *ngIf="!isEditing">{{todo.desc}}</p>
+      <textarea *ngIf="isEditing" [(ngModel)]="todo.desc" class="form-control" placeholder="Edit description"></textarea>
+
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="todo{{i}}" (click)="onCheckboxClick(todo)" [checked]="!todo.active">
+        <label class="form-check-label" for="todo{{i}}">Done</label>
+      </div>
+      <button class="btn btn-danger mx-3" (click)="onClick(todo)">Delete</button>
+      <button class="btn btn-primary mx-3" *ngIf="!isEditing" (click)="editTodo()">Edit</button>
+      <button class="btn btn-success mx-3" *ngIf="isEditing" (click)="saveEdit()">Save</button>
+      <button class="btn btn-secondary mx-3" *ngIf="isEditing" (click)="cancelEdit()">Cancel</button>
+    </div>
+  </li>
+</ul>
