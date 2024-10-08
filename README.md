@@ -84,7 +84,6 @@ Here are some screenshots of the application:
 
 image
 
-Delete, Save, Edit, Cancel
+**Delete, Save, Edit, Cancel**
 
-image
->>>>>>> origin/main
+
