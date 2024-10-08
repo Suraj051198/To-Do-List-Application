@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # To-Do List Application
 
 ## Description
@@ -81,7 +80,6 @@ Here are some screenshots of the application:
 ![image](https://github.com/user-attachments/assets/a3e8dc81-5858-41e1-b81c-d88407a02512)
 
    
-=======
 
 
 image
